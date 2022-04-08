@@ -28,7 +28,7 @@ h2 {
     text-align: left;
 }
 
-.images {
+.images, .cards {
     background: rgba(0,218,219,1);
     width: 140px;
     height: 140px;
