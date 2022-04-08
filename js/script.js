@@ -48,7 +48,7 @@ $(() => {
       card1 = $(this).children().prop('src');
       posCard1 = $(this).prop('id');
       card1 = card1.substr(48);
-      console.log(card1); 
+      console.log(card1);
       clicks++;
       passaggio++;
     } else if (passaggio == 1 && opacity != 0.5) {
@@ -83,6 +83,7 @@ $(() => {
       }
     }
     console.log('numero coppie azzeccate ' + conteggioFinale);
+    console.log(card1)
 
 
     if (conteggioFinale == 8) {
