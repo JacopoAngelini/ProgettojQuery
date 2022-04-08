@@ -83,7 +83,7 @@ $(() => {
       }
     }
     console.log('numero coppie azzeccate ' + conteggioFinale);
-    console.log(card1)
+    console.log(card1);
 
 
     if (conteggioFinale == 8) {
