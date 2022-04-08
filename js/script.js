@@ -48,9 +48,8 @@ $(() => {
     if (passaggio == 0 && opacity != 0.5) {
       card1 = $(this).children().prop('src');
       posCard1 = $(this).prop('id');
-      console.log(card1);
-
       card1 = card1.substr(90);
+      console.log(card1);
       clicks++;
       passaggio++;
     } else if (passaggio == 1 && opacity != 0.5) {
